@@ -1,0 +1,8 @@
+{
+  "name": "villa-mamma-demo",
+  "private": true,
+  "description": "Demo copy of the Villa Mamma website, deployed on Vercel as a static site.",
+  "scripts": {
+    "build": "node scripts/fetch-site.mjs"
+  }
+}
