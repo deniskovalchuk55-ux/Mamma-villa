@@ -2,6 +2,8 @@
 
 > Wersja demonstracyjna strony Villa Mamma (Nadarzyn). Oficjalna strona: [villamamma.pl](https://villamamma.pl).
 
+**Сайт: https://mamma-villa.vercel.app**
+
 Демо-версія нового сайту для залу Villa Mamma, щоб показати власнику. Це не офіційний сайт:
 
 - угорі кожної сторінки є смужка «wersja demonstracyjna» з посиланням на villamamma.pl;
@@ -13,14 +15,9 @@
 
 Сам сайт зібраний у проєкті Higgsfield (TanStack Start). Архів — це його статична копія з усіма сторінками, зроблена скриптом `scripts/static-export.sh` у тому проєкті.
 
-## Як опублікувати на Vercel
+## Публікація
 
-1. Зайдіть на [vercel.com](https://vercel.com) через GitHub.
-2. **Add New… → Project**, знайдіть **Mamma-villa** і натисніть **Import**.
-3. Нічого не змінюйте (налаштування беруться з `vercel.json`) і натисніть **Deploy**.
-4. Приблизно за хвилину Vercel дасть посилання на кшталт `mamma-villa.vercel.app`.
-
-Кожен новий коміт у `main` Vercel публікує сам.
+Проєкт **mamma-villa** у Vercel під'єднаний до цього репозиторію: кожен новий коміт у `main` Vercel публікує сам, приблизно за хвилину.
 
 ## Права
 
